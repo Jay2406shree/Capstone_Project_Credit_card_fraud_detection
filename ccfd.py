@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-pickle.dump(dt,open('rf.pkl','wb')) 
+pickle.dump(rf,open('rf.pkl','wb')) 
 with open("rf.pkl","rb") as model_file:
     reloaded_model = pickle.load(model_file)
 
