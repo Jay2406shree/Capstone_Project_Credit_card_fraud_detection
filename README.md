@@ -4,4 +4,4 @@ Dataset link : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ccfd.py :stremlite file
 
-rf.pk : Random forest using pickle file
+rf.pkl : Random forest using pickle file
