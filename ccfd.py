@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import numpy as np
-import sklearn
 
 with open("rf.pkl","rb") as model_file:
     reloaded_model = pickle.load(model_file)
